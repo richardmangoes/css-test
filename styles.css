@@ -36,6 +36,35 @@ a, .secondary, .footer {
     justify-content: space-between;
 }
 
+.quote {
+    background-color: #e5e7eb;
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    padding: 100px 450px;
+    margin: 128px 0;
+    text-align: justify;
+    text-justify: auto;
+}
+
+.quote-sign {
+    font-weight: 600;
+    font-style: normal;
+    font-size: 18px;
+    text-align: end;
+}
+
+.call {
+    display: flex;
+    background-color: #3882F6;
+    border-radius: 10px;
+    margin: 0 250px 128px;
+    padding: 64px 100px;
+    align-items: center;
+    justify-content: baseline;    
+}
+
 button, .call {
     background-color: #3882F6;
     color: #F9FAF8;
@@ -43,7 +72,7 @@ button, .call {
 
 .hero-button, .call-button {
     padding: 8px 24px;
-    border-radius: 10%;
+    border-radius: 5px;
     font-weight: 600;
 }
 
@@ -56,6 +85,16 @@ button, .call {
 .call-button {
     border-color: #F9FAF8;
     border-style: solid; 
+    display: flex;
+}
+
+.call-container {
+    flex: 1;
+}
+
+.call-high {
+    font-size: 18px;
+    font-weight: 600;
 }
 
 .header {
@@ -68,9 +107,6 @@ button, .call {
 .hero {
     align-items: center;
     padding-bottom: 100px;
-}
-
-.hero-container {
 }
 
 .footer {
@@ -88,5 +124,5 @@ button, .call {
     width: 100px;
     height: 100px;
     object-fit: cover;
-    border-radius: 5%;
+    border-radius: 10%;
 }
