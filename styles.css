@@ -18,7 +18,7 @@ a {
 }
 
 a, .secondary, .footer {
-    color: #E5E7EB;
+    color: #293546;
     font-size: 18px;
     font-weight: 100;
 }
@@ -26,23 +26,23 @@ a, .secondary, .footer {
 .main {
     font-size: 48px;
     font-weight: 900;
-    color: #F9FAF8;
+    color:#1F2937;
 }
 
 .header, .hero, .footer {
-    background-color: #1f2937;
+    background-color: #FFD700;
     display: flex;
     padding: 8px 250px;
     justify-content: space-between;
 }
 
 .quote {
-    background-color: #e5e7eb;
+    background-color: #ffef94;
     color: #1F2937;
     font-size: 36px;
     font-weight: lighter;
     font-style: italic;
-    padding: 100px 450px;
+    padding: 100px 350px;
     margin: 128px 0;
     text-align: justify;
     text-justify: auto;
@@ -55,9 +55,12 @@ a, .secondary, .footer {
     text-align: end;
 }
 
+.quote-para {
+    margin-top: -4px;
+}
+
 .call {
     display: flex;
-    background-color: #3882F6;
     border-radius: 10px;
     margin: 0 250px 128px;
     padding: 64px 100px;
@@ -66,8 +69,8 @@ a, .secondary, .footer {
 }
 
 button, .call {
-    background-color: #3882F6;
-    color: #F9FAF8;
+    background-color: #fcc334;
+    color: #293546;
 }
 
 .hero-button, .call-button {
@@ -77,13 +80,13 @@ button, .call {
 }
 
 .hero-button {
-    border-color:#3882F6;
+    border-color:#DAA520;
     border-width: 2px;
     margin-top: 24px;
 }
 
 .call-button {
-    border-color: #F9FAF8;
+    border-color: #293546;
     border-style: solid; 
     display: flex;
 }
@@ -99,7 +102,7 @@ button, .call {
 
 .header {
     font-size: 24px;
-    color: #F9FAF8;
+    color: #293546;
     font-weight: 600;
     padding-bottom: 100px;
 }
@@ -107,6 +110,7 @@ button, .call {
 .hero {
     align-items: center;
     padding-bottom: 100px;
+    gap: 36px;
 }
 
 .footer {
@@ -115,8 +119,8 @@ button, .call {
 }
 
 .hero-img {
-    width: 600px;
-    height: 300px;
+    width: 1000px;
+    height: 400px;
     object-fit: cover;
 }
 
